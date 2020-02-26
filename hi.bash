@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-echo 'Hello world'
+#Hello word. Exercise 1 of 11
+echo 'Hello world: Exercise 1 of 11'
