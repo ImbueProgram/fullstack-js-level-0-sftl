@@ -12,28 +12,28 @@
 #
 # There are three descriptors:
 #
-# |------|------------| ---------------------|
-# | Code | Descriptor | Description          |
-# |------|------------| ---------------------|
-# |   0  |    stdin   | The standard input.  |
-# |   1  |   stdout   | The standard output. |
-# |   2  |   stderr   | The errors output.   |
-# |------|------------| ---------------------|
+# |------|------------|-------------------------------------------------------------------------------------------------|
+# | Code | Descriptor | Description                                                                                     |
+# |------|------------|-------------------------------------------------------------------------------------------------|
+# |   0  |    stdin   | The standard input.                                                                             |
+# |   1  |   stdout   | The standard output.                                                                            |
+# |   2  |   stderr   | The errors output.                                                                              |
+# |------|------------|-------------------------------------------------------------------------------------------------|
 #
 # Redirection makes it possible to control where the output of a command goes to, and where the input of a command
 # comes from. For redirecting streams these operators are used:
 #
 # https://www.gnu.org/software/bash/manual/bash.html#Redirections
-# |---------|----------------------------------------------------------------------|
-# |Operator | Description                                                          |
-# |---------|----------------------------------------------------------------------|
-# |    >    | Redirecting output                                                   |
-# |   &>    | Redirecting output and error output                                  |
-# |   &>>   | Appending redirected output and error output                         |
-# |    <    | Redirecting input                                                    |
-# |   <<    | [Here documents](http://tldp.org/LDP/abs/html/here-docs.html) syntax |
-# |   <<<   | [Here strings](http://www.tldp.org/LDP/abs/html/x17837.html)         |
-# |---------|----------------------------------------------------------------------|
+# |---------|-----------------------------------------------------------------------------------------------------------|
+# |Operator | Description                                                                                               |
+# |---------|-----------------------------------------------------------------------------------------------------------|
+# |    >    | Redirecting output                                                                                        |
+# |   &>    | Redirecting output and error output                                                                       |
+# |   &>>   | Appending redirected output and error output                                                              |
+# |    <    | Redirecting input                                                                                         |
+# |   <<    | [Here documents](http://tldp.org/LDP/abs/html/here-docs.html) syntax                                      |
+# |   <<<   | [Here strings](http://www.tldp.org/LDP/abs/html/x17837.html)                                              |
+# |---------|-----------------------------------------------------------------------------------------------------------|
 #
 # Here are a few examples of using redirections:
 #

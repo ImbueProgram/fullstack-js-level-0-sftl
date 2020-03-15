@@ -35,25 +35,25 @@
 # There are a lot of global variables in bash. You will meet these variables fairly often, so here is a quick lookup
 # table with the most practical ones:
 #
-# |----------|------------------------------------------------------------------------------|
-# | Variable | Description                                                                  |
-# |----------|------------------------------------------------------------------------------|
-# | $HOME    | The current user's home directory.                                           |
-# | $USER    | The current user.                                                            |
-# | $PATH    | A colon-separated list of directories in which the shell looks for commands. |
-# | $PWD     | The current working directory.                                               |
-# | $RANDOM  | Random integer between 0 and 32767.                                          |
-# | $UID     | The numeric, real user ID of the current user.                               |
-# | $PS1     | The primary prompt string.                                                   |
-# | $PS2     | The secondary prompt string.                                                 |
-# |----------|------------------------------------------------------------------------------|
+# |----------|----------------------------------------------------------------------------------------------------------|
+# | Variable | Description                                                                                              |
+# |----------|----------------------------------------------------------------------------------------------------------|
+# | $HOME    | The current user's home directory.                                                                       |
+# | $USER    | The current user.                                                                                        |
+# | $PATH    | A colon-separated list of directories in which the shell looks for commands.                             |
+# | $PWD     | The current working directory.                                                                           |
+# | $RANDOM  | Random integer between 0 and 32767.                                                                      |
+# | $UID     | The numeric, real user ID of the current user.                                                           |
+# | $PS1     | The primary prompt string.                                                                               |
+# | $PS2     | The secondary prompt string.                                                                             |
+# |----------|----------------------------------------------------------------------------------------------------------|
 #
 #  You may find extended list of environment variables in Bash:
 #  http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_02.html#sect_03_02_04
 #
 ########################################################################################################################
 
-###### THE CHALLENGE: Exercise 2 of 11##################################################################################
+###### THE CHALLENGE: Exercise 2 of 11 #################################################################################
 #
 # Create a file named variables.bash (of course using touch).
 # Your program should output your current username and directory name in the following format:
