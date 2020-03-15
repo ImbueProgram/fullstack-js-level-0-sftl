@@ -53,7 +53,7 @@
 #
 ########################################################################################################################
 
-## THE CHALLENGE: Exercise 2 of 11######################################################################################
+###### THE CHALLENGE: Exercise 2 of 11##################################################################################
 #
 # Create a file named variables.bash (of course using touch).
 # Your program should output your current username and directory name in the following format:

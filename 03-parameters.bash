@@ -35,7 +35,7 @@
 #
 ########################################################################################################################
 
-## THE CHALLENGE: Exercise 3 of 11######################################################################################
+###### THE CHALLENGE: Exercise 3 of 11 #################################################################################
 #
 # Create a file named parameters.bash.
 # Your program should output only the first, third and fifth positional parameters, which will be passed into your script.
