@@ -68,27 +68,10 @@
 # For example, if you run your script with these arguments:
 #     ./arrays.bash awesome cool strong cute awesome
 #     The script must output this: I am cool strong and cute
+#
 ########################################################################################################################
 
 items=${*:2:2} #Get second and third parameters form all parameters passed into the script. ${@:2:2} also works
 items=(i am ${items[*]}) #Prepend 2 elements to the array
 items=(${items[*]} and $4) #Append 2 elements to the array. In one line: items=(i am ${items[*]} and $4)
 echo ${items[*]}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
